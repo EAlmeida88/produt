@@ -8,6 +8,8 @@ const handleSubmit = (event) => {
     const mandado = document.querySelector('input[name=mandado]').value;
     const veiculo = document.querySelector('input[name=veiculo]').value;
     const veiculoautor = document.querySelector('input[name=veiculoautor').value;
+    const reds = document.querySelector('input[name=reds').value;
+    const data = document.querySelector('input[name=data').value;
 
     fetch('https://api.sheetmonkey.io/form/6fcczrz8oku2bRRGtsoMjn', {
 
@@ -16,7 +18,7 @@ const handleSubmit = (event) => {
             'Accept': 'application/json',
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ arma, prisao, trafico, iri, mandado, veiculo, veiculoautor }),
+        body: JSON.stringify({ arma, prisao, trafico, iri, mandado, veiculo, veiculoautor, reds, data }),
 
     });
 
