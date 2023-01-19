@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 600px) {
+    /* Estilos para telas com largura máxima de 600px */
+}
+
 :root {
     --white: #fff;
     --whitesmoke: #f9f9f9;
@@ -43,8 +47,3 @@
     background-color: rgb(0, 0, 0);
 
 }
-
-
-
-
-.botoes {}
