@@ -1,0 +1,4 @@
+<Files "home.html" "consulta.html">
+Order Allow,Deny
+Deny from all
+</Files>
